@@ -1,0 +1,35 @@
+body {
+    background: #c9d6ff;
+    background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2);
+    background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+
+}
+
+#carousel {
+    position:relative;
+    transform: translateY(30%);
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border: 2px solid #888888;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+ul {
+    width: 2000px;
+    margin: 0 auto;
+    padding: 0;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+li {
+    list-style-type: none;
+    height: 400px;
+    width: 400px;
+    float: right;
+}
